@@ -13,7 +13,6 @@ class Anagram
   def match(word_list)
     word_list.each do |word_to_check|
     end
-    binding.pry
   end
 
 end
