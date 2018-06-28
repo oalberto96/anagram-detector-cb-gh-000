@@ -14,6 +14,7 @@ class Anagram
     anagram = []
     word_list.each do |word_to_check|
        @word.chars.all? {|char| word_to_check.include?(char)}
+       binding.pry
     end
   end
 
