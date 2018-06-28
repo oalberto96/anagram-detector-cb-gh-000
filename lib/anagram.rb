@@ -13,7 +13,8 @@ class Anagram
   def match(word_list)
     anagram = []
     word_list.each do |word_to_check|
-       @word.chars.all? {|char| word_to_check.include?(char)}
+       if @word.chars.all? {|char| word_to_check.include?(char)}
+         @word << word_to_check
        binding.pry
     end
   end
