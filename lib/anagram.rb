@@ -16,8 +16,8 @@ class Anagram
        if @word.chars.all? {|char| word_to_check.include?(char)}
          anagram << word_to_check
        end
-       anagram
     end
+    anagram
   end
 
 end
